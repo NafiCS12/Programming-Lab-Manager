@@ -1,0 +1,16 @@
+"How to run Java program on the command prompt?"
+
+"javac JavaProgram";
+"java JavaProgram";
+"javac JavaProgram.java";
+"No one";
+
+"How do you convert a string of number to a number?";
+
+"int num=Integer.parseInt(str_num)";
+                        
+"int num=str_num.toInteger()";
+                        
+"int num=(int)str_num";
+              
+"int num=(Integer)str_num";

@@ -1,0 +1,245 @@
+.root
+{
+	-fx-background-image: url("adminpaneluibg.jpg");
+}
+
+#navigationBG
+{
+	-fx-fill: #00f0ff;
+	-fx-opacity: 0.15;
+}
+
+#navigationItems
+{
+    -fx-font-size: 17px;
+    -fx-font-family: "Arial Black";
+    -fx-font-weight: bold;
+	-fx-alignment: CENTER;
+    -fx-text-fill: #01155f;
+	-fx-background-insets: 5px;
+	-fx-background-radius: 20px;
+	-fx-background-color: #26e0fe;
+	-fx-blend-mode: src-atop;
+	-fx-opacity: 0.2;
+}
+
+#navigationItems:hover
+{
+	-fx-text-fill: #fffb00;
+	-fx-background-color: #008c0b;
+	-fx-opacity: 1;
+	-fx-cursor: hand;
+}
+
+#navigationItems:pressed
+{
+	-fx-background-color: #01b9b9;
+	-fx-text-fill: #00ffc8;
+}
+
+
+#navigationItems_Active
+{
+	-fx-font-size: 17px;
+    -fx-font-family: "Arial Black";
+    -fx-font-weight: bold;
+	-fx-alignment: CENTER;
+    -fx-text-fill: #fffb00;
+	-fx-background-insets: 5px;
+	-fx-background-radius: 20px;
+	-fx-background-color: #008c0b;
+	-fx-blend-mode: src-atop;
+	-fx-opacity: 1;
+}
+
+#bodyPanelBG
+{
+	-fx-background-image: url("adminpaneluibodybg.jpg");
+}
+
+
+.text-area
+{
+    -fx-background-color: rgba(255,177,208,0.2);
+	-fx-text-fill: #a4fefa;
+	-fx-wrap-text: true;
+}
+
+.text-area .scroll-pane
+{
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport
+{
+    -fx-background-color: transparent;
+	
+}
+
+.text-area .scroll-pane .content
+{
+    -fx-background-color: transparent;
+}
+
+
+.text-field
+{
+    -fx-background-color: rgba(255,177,208,0.2);
+	-fx-text-fill: #a4fefa;
+        -fx-padding: 0 5;
+}
+
+.text-field .scroll-pane
+{
+    -fx-background-color: transparent;
+}
+
+.text-field .scroll-pane .viewport
+{
+    -fx-background-color: transparent;
+	
+}
+
+.text-field .scroll-pane .content
+{
+    -fx-background-color: transparent;
+}
+
+.scroll-bar
+{
+	-fx-opacity: 0.3;
+	-fx-orientation: vertical;
+}
+
+.scroll-bar:hover
+{
+	-fx-opacity: 1.0;
+}
+
+
+.button
+{
+	-fx-opacity: 0.3;
+}
+
+.button:hover
+{
+	-fx-opacity: 1.0;
+	-fx-cursor: hand;
+}
+
+#onlineTitle
+{
+	-fx-alignment: CENTER;
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #ff3500;
+}
+
+#logPanel
+{
+	-fx-alignment: CENTER_RIGHT;
+	-fx-text-fill: #fffb00;
+}
+
+#polygonalDirection
+{
+	-fx-fill: #0098ff;
+	-fx-opacity: 0.5;
+}
+
+#polygonalDirection:hover
+{
+	-fx-opacity: 1;
+	-fx-cursor: hand;
+}
+
+#polygonalDirection:disabled
+{
+	-fx-opacity: 0.2;
+}
+
+#editOnline
+{
+	-fx-image: url("editOnline.png");
+	-fx-opacity: 0.7;
+}
+
+
+#cancelChange
+{
+	-fx-image: url("cancelChange.png");
+	-fx-opacity: 0.7;
+}
+
+#applyChange
+{
+	-fx-image: url("applyChange.png");
+	-fx-opacity: 0.7;
+}
+
+#deleteOnline
+{
+	-fx-image: url("deleteOnline.png");
+	-fx-opacity: 0.7;
+}
+
+
+#infoImg
+{
+	-fx-image: url("info.png");
+	-fx-opacity: 0.1;
+}
+
+
+#editOnline:hover, #deleteOnline:hover, #cancelChange:hover, #applyChange:hover, #infoImg:hover
+{
+	-fx-cursor: hand;
+	-fx-opacity: 1;
+}
+
+#editOnline:pressed, #deleteOnline:pressed, #cancelChange:pressed, #applyChange:pressed, #infoImg:pressed
+{
+	-fx-blend-mode: overlay;
+}
+
+
+.scroll-pane
+{
+	-fx-background-color: transparent;
+}
+
+.scroll-pane .viewport
+{
+	-fx-background-color: transparent;
+}
+
+
+.scroll-pane .content
+{
+	-fx-background-color:  transparent;
+}
+
+#listItem:hover
+{
+	-fx-opacity: 1.0;
+	-fx-cursor: hand;
+	-fx-background-color: rgba(255,0,0,0.2);
+}
+
+
+#listItem:disabled
+{
+	-fx-opacity: 1.0;
+	-fx-cursor: default;
+}
+
+
+#listItemActive
+{
+	-fx-opacity: 1.0;
+	-fx-cursor: default;
+	-fx-text-fill: #a4fefa;
+	-fx-background-color: rgba(255,0,0,0.2);
+}
+

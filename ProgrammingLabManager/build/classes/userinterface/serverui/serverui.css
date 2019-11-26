@@ -1,0 +1,131 @@
+.root
+{
+    -fx-background-image: url("serveruibg.jpg");
+}
+
+#navigationBG
+{
+	-fx-fill: #00f0ff;
+	-fx-opacity: 0.15;
+}
+
+
+.text-area
+{
+    -fx-background-color: rgba(255,177,208,0.2);
+	-fx-text-fill: #a4fefa;
+	-fx-wrap-text: true;
+}
+
+.text-area .scroll-pane
+{
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport
+{
+    -fx-background-color: transparent;
+	
+}
+
+.text-area .scroll-pane .content
+{
+    -fx-background-color: transparent;
+}
+
+
+.text-field
+{
+    -fx-background-color: rgba(255,177,208,0.2);
+	-fx-text-fill: #a4fefa;
+}
+
+.text-field .scroll-pane
+{
+    -fx-background-color: transparent;
+}
+
+.text-field .scroll-pane .viewport
+{
+    -fx-background-color: transparent;
+	
+}
+
+.text-field .scroll-pane .content
+{
+    -fx-background-color: transparent;
+}
+
+.scroll-bar
+{
+	-fx-opacity: 0.3;
+	-fx-orientation: vertical;
+}
+
+.scroll-bar:hover
+{
+	-fx-opacity: 1.0;
+}
+
+
+.button
+{
+	-fx-opacity: 0.3;
+}
+
+.button:hover
+{
+	-fx-opacity: 1.0;
+	-fx-cursor: hand;
+}
+
+.button:disabled
+{
+	-fx-opacity: 0.1;
+	-fx-cursor: default;
+}
+
+#onlineTitle
+{
+	-fx-alignment: CENTER;
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #ff3500;
+}
+
+#logPanel
+{
+	-fx-alignment: CENTER_RIGHT;
+	-fx-text-fill: #fffb00;
+}
+
+
+.scroll-pane
+{
+	-fx-background-color: transparent;
+}
+
+.scroll-pane .viewport
+{
+	-fx-background-color: transparent;
+}
+
+
+.scroll-pane .content
+{
+	-fx-background-color:  transparent;
+}
+
+#listItem:hover
+{
+	-fx-opacity: 1.0;
+	-fx-cursor: hand;
+	-fx-background-color: rgba(255,0,0,0.2);
+}
+
+#statusBar
+{
+	-fx-alignment: CENTER_RIGHT;
+	-fx-text-fill: #fffb00;
+	-fx-opacity: 0.7;
+}
