@@ -1,0 +1,8 @@
+A desktop based application to manage different tasks of a programming course's lab->
+arranging coding tests (the keyword 'onlines' is used in BUET CSE department to refer to coding assignments),
+submitting coding tests,
+submitting coding home-assignments and
+arranging MCQ exams.
+
+
+Implemented in Java with JavaFX for UI design.
